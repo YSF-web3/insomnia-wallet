@@ -1,0 +1,15 @@
+{
+  "name": "insomnia-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "private":"true",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --parallel run dev",
+    "build": "pnpm --recursive run build",
+    "lint": "pnpm --parallel run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
