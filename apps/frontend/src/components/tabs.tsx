@@ -19,11 +19,7 @@ function WalletTabs() {
       case "tokens":
         return <TokenList walletAddress={address as string} />;
       case "nfts":
-        return (
-          <NFTList
-            walletAddress={"0xff3879b8a363aed92a6eaba8f61f1a96a9ec3c1e"}
-          />
-        );
+        return <NFTList walletAddress={address as string} />;
       case "transactions":
         return (
           <div className="p-4 text-center">
